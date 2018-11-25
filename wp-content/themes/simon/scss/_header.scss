@@ -1,0 +1,48 @@
+// Navigation
+
+.top-bar-container.contain-to-grid {
+    min-height: 225px;
+    background: none;
+}
+
+nav.top-bar {
+    text-align: center;
+    background: none;
+}
+
+section.top-bar-section {
+    transition: none 0 0;
+    width: 100%;
+    display: inline-block;
+    div ul li a {
+        text-transform: uppercase;
+        color: #000;
+    }
+}
+
+form#searchform div {
+    label {
+        display: none;
+    }
+    input#searchsubmit {
+        
+    }
+}
+
+.top-bar:not(.expanded) section ul {
+    display: table;
+    margin: 0 auto;
+    li {
+        display: table-cell;
+    }
+}
+
+.floatingPhoto {
+    text-align: center;
+    background: cadetblue;
+    max-height: 320px;
+    img.profilePic {
+        border: solid 10px #FFF;
+        margin-top: 100px;
+    }
+}
